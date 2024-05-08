@@ -40,5 +40,6 @@ app.post('/events', async(req, res) => {
 })
 
 app.listen(PORT, ()=>{
+    console.log("v55 being deployed.")
     console.log(`Listening on ${PORT}`);
 })
